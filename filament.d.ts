@@ -809,9 +809,9 @@ export const HEAPU8 : HeapInterface;
 export class SurfaceOrientation$Builder {
     public constructor();
     public vertexCount(count: number): SurfaceOrientation$Builder;
-    public normals(count: number, stride?: number): SurfaceOrientation$Builder;
-    public uvs(uvs: number, stride?: number): SurfaceOrientation$Builder;
-    public positions(positions: number, stride?: number): SurfaceOrientation$Builder;
+    public normals(count: number, stride: number): SurfaceOrientation$Builder;
+    public uvs(uvs: number, stride: number): SurfaceOrientation$Builder;
+    public positions(positions: number, stride: number): SurfaceOrientation$Builder;
     public triangleCount(count: number): SurfaceOrientation$Builder;
     public triangles16(triangles: number): SurfaceOrientation$Builder;
     public triangles32(triangles: number): SurfaceOrientation$Builder;
